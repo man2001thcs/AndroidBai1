@@ -224,7 +224,7 @@ public class MainActivity extends AppCompatActivity {
 
     //equal
     public void setButtonequal(View view){
-        text2.setText("");
+        text2.setText("equal");
         now = Double.parseDouble(String.valueOf(text1.getText()));
         if (storeFunc != 0) {
             double temporary = tempo;
